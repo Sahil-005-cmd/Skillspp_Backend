@@ -1,8 +1,0 @@
-# Normalize JSON files to use LF endings in repo and on checkout
-*.json text eol=lf
-
-# Normalize all other text files (optional but recommended)
-* text=auto
-
-# Don't touch node_modules (optional)
-node_modules/** -text
